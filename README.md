@@ -3,7 +3,7 @@ A WordPress plugin to collect and view currency rates from Bank of Poland public
 
 == Description ==
  
-This plugin collect to custom worpdress table and allow to view historical currency rates from Bank of Poland by using custom Gutenberg Blocks and Rest API requests. 
+This plugin collect to custom WordPress table and allow to view historical currency rates from Bank of Poland by using custom Gutenberg Blocks and Rest API requests. 
  
 == Installation ==
  
@@ -19,6 +19,9 @@ Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency codes, for ex
 2. List of rates for needed currency and dates range.
 Example: /wp-json/archive-bnp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency code, for example - USD
+
+= Are any translation available for the plugin? =
+Plugin support 2 languages: English and Polish.
 
 = Which Gutenberg Blocks can I use after installation =
 1. Currency Chart - show rates for needed currency and dates range as a chart. If you want to have the last available date on the chart always then set Date end parameter far in the future.
