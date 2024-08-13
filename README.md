@@ -13,9 +13,12 @@ This plugin collect to custom WordPress table and allow to view historical curre
 **Frequently Asked Questions**
  
 **Which API endpoints can I use after installation**
-1. List of currencies rates for available needed date and date before it. 
+1. List of currencies rates for available needed date and date before it.
+
 Example: /wp-json/archive-bnp/v1/date-rates/YYYY-MM-DD/AAA,BBB
-Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency codes, for example - USD,EUR 
+
+Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency codes, for example - USD,EUR
+
 2. List of rates for needed currency and dates range.
 Example: /wp-json/archive-bnp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency code, for example - USD
