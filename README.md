@@ -20,7 +20,9 @@ Example: /wp-json/archive-bnp/v1/date-rates/YYYY-MM-DD/AAA,BBB
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency codes, for example - USD,EUR
 
 2. List of rates for needed currency and dates range.
+
 Example: /wp-json/archive-bnp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
+
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency code, for example - USD
 
 **Are any translation available for the plugin?**
