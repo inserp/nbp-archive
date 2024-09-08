@@ -2,9 +2,13 @@
 A WordPress plugin to collect and view currency rates from Bank of Poland public API. 
 
 ## Description
- 
-This plugin collect to custom WordPress table and allow to view historical currency rates from Bank of Poland by using custom Gutenberg Blocks and Rest API requests. 
- 
+
+This plugin collect and allow to view historical currency rates from Bank of Poland by using custom Gutenberg Blocks and REST API. 
+The plugin use Bank of Poland public API for collecting the rates.
+Endpoint: https://api.nbp.pl/api/exchangerates/tables/a
+Bank of Poland API description and terms of use: https://api.nbp.pl/en.html
+After plugin installation your site will provide Bank of Poland historical data using your local database and directly from your domain as REST API service (see FAQ about endpoints).
+
 ## Installation
  
 1. Upload the plugin folder to your /wp-content/plugins/ folder.
@@ -15,13 +19,13 @@ This plugin collect to custom WordPress table and allow to view historical curre
 ## Which API endpoints can I use after installation
 ### 1. List of currencies rates for available needed date and date before it.
 
-Example: /wp-json/archive-bnp/v1/date-rates/YYYY-MM-DD/AAA,BBB
+Example: https://your-domain-name.com/wp-json/archive-bnp/v1/date-rates/YYYY-MM-DD/AAA,BBB
 
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency codes, for example - USD,EUR
 
 ### 2. List of rates for needed currency and dates range.
 
-Example: /wp-json/archive-bnp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
+Example: https://your-domain-name.com/wp-json/archive-bnp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
 
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency code, for example - USD
 
