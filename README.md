@@ -1,5 +1,6 @@
 # nbp-archive
-A WordPress plugin to collect and view currency rates from Bank of Poland public API. 
+A WordPress plugin to collect currency rates from Bank of Poland. Allow to view rates as Gutenberg blocks and REST API endpoints from local database.
+Public URL: https://wordpress.org/plugins/archive-nbp
 
 ## Description
 
@@ -23,13 +24,13 @@ After plugin installation your site will provide Bank of Poland historical data 
 ## Which API endpoints can I use after installation
 ### 1. List of currencies rates for available needed date and date before it.
 
-Example: https://your-domain-name.com/wp-json/archive-bnp/v1/date-rates/YYYY-MM-DD/AAA,BBB
+Example: https://your-domain-name.com/wp-json/archive-nbp/v1/date-rates/YYYY-MM-DD/AAA,BBB
 
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency codes, for example - USD,EUR
 
 ### 2. List of rates for needed currency and dates range.
 
-Example: https://your-domain-name.com/wp-json/archive-bnp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
+Example: https://your-domain-name.com/wp-json/archive-nbp/v1/currencies-period/YYYY-MM-DD/YYYY-MM-DD/AAA
 
 Where: YYYY - year; MM-month; DD-day; AAA,BBB -  ISO 4217 currency code, for example - USD
 
@@ -45,5 +46,5 @@ Plugin support 2 languages: English and Polish.
  Simply deactivate and delete the plugin. 
  
 ## Changelog
-**1.0.1**
+**1.0**
 * Plugin released.
